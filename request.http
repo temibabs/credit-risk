@@ -1,0 +1,25 @@
+POST http://localhost:5000/v1/score
+Content-Type: application/json
+
+{"OCCUPATION":  "OTHERS",
+  "BUSINESS_TYPE": "OTHERS",
+  "STATE": "OSUN",
+  "GENDER": "M",
+  "balance": 70000,
+  "Currently ≥ 60dpd": 0,
+  "Ever 90dpd+": 0,
+  "Latest Known Status": " Current (active no arrears)",
+  "Loan Amount (Principal)": 235000,
+  "Loan Tenure": 15,
+  "Debit": 430000,
+  "Credit": 500000,
+  "TOTAL_PRODUCTS": 4,
+  "BASIC_SAVINGS": "N",
+  "BASIC_CURRENT": "Y",
+  "REGION": "WEST",
+  "No_of_Mobile_No": 2,
+  "MARITAL_STATUS": "Married",
+  "ATMCARD": "Y"
+}
+
+###
